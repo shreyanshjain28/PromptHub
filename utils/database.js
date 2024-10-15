@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 let isConnected = false;
-import {MONGODB_URI} from '@config.js'
+import {MONGODB_URI} from '@/config.js'
 
 export const connectToDB = async () => {
        mongoose.set('strictQuery', true);      //setting as we get warmings in consoles.

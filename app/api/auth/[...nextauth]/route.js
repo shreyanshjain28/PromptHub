@@ -6,7 +6,7 @@ import GoogleProvider from "next-auth/providers/google";
 import  {connectToDB} from '@utils/database';
 import User from '@models/user';
 
-import {GOOGLE_ID,GOOGLE_CLIENT_SECRET,NEXTAUTH_URL, NEXTAUTH_URL_INTERNAL,NEXTAUTH_SECRET} from '@config.js'
+import {GOOGLE_ID,GOOGLE_CLIENT_SECRET,NEXTAUTH_URL, NEXTAUTH_URL_INTERNAL,NEXTAUTH_SECRET} from '@/config.js'
 
 // console.log('hit there')
 // console.log({
