@@ -4,7 +4,6 @@ import { connectToDB } from "@utils/database";
 
 //GET -- READ
 
-
 export const GET = async (request, { params }) => {
     try {
         await connectToDB()
@@ -20,7 +19,6 @@ export const GET = async (request, { params }) => {
 }
 
 //PATCH (UPDATE)
-
 export const PATCH = async (request, { params }) => {
     const { prompt, tag } = await request.json();
 
